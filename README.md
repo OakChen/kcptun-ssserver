@@ -8,7 +8,7 @@ A docker image for shadowsocks server with kcptun support, using official shadow
 
 ## Usage
 
-    docker run -d --restart=always -p 8389:8388 -p 8389:8388/udp -p 29900:29900/udp oakchen/kcptun-shadowsocks
+    docker run -d --restart=always -p 443:8388 -p 443:8388/udp -p 29900:29900/udp oakchen/kcptun-shadowsocks
 
 or define a password, and use another port, 8388 may be blocked by firewalls
 
